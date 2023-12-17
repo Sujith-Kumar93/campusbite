@@ -2,6 +2,7 @@ const express = require("express");
 const db = require('./db')
 const Menu = require("./models/menuModel")
 const app = express();
+const path = require("path");
 
 const menusRoute = require('./routes/menusRoute')
 
